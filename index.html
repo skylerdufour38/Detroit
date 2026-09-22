@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Store Archive</title>
+    <meta
+      name="description"
+      content="Browse archived iOS app packages in the App Store collection."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">A</div>
+          <div>
+            <p class="eyebrow">iOS Archive</p>
+            <h1>App Store</h1>
+          </div>
+        </div>
+        <a class="download-button primary" href="#archive">Download ZIP</a>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow accent">GitHub Pages + GitHub IPA Archive</p>
+            <h2>Archived iOS applications</h2>
+            <p>
+              Browse a curated collection of legacy App Store packages and app bundle
+              metadata from classic iPhone-era builds.
+            </p>
+          </div>
+
+          <div class="hero-metrics" aria-label="Archive summary">
+            <div class="metric-card">
+              <span class="metric-label">Apps</span>
+              <strong id="total-apps">18</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Storage</span>
+              <strong>798.3 MB</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Platform</span>
+              <strong>iOS</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="toolbar" id="archive">
+          <label class="search-wrap" for="search-input">
+            <span class="sr-only">Search apps</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10.5 3a7.5 7.5 0 015.99 12.8l4.58 4.59 1.41-1.41-4.59-4.58A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/>
+            </svg>
+            <input id="search-input" type="search" placeholder="Search apps or bundle IDs" />
+          </label>
+
+          <div class="status-pill">App Store Package</div>
+        </section>
+
+        <section id="app-grid" class="app-grid" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
