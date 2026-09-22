@@ -41,17 +41,17 @@ Use the **Download ZIP** button on the GitHub Pages site to download the archive
 
 ```text
 app-store/
-âââ README.md
-âââ index.html
-âââ style.css
-âââ script.js
-âââ packages/
-â   âââ App-Store-Archive.zip
-âââ ipa/
-    âââ Animal Sounds 2.0.ipa
-    âââ SoundTouch 1.4.ipa
-    âââ Tozzle 3.7.ipa
-    âââ ...
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+├── packages/
+│   └── App-Store-Archive.zip
+└── ipa/
+    ├── Animal Sounds 2.0.ipa
+    ├── SoundTouch 1.4.ipa
+    ├── Tozzle 3.7.ipa
+    └── ...
 ```
 
 ## GitHub Pages
