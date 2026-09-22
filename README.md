@@ -57,9 +57,13 @@ app-store/
 ## GitHub Pages
 
 1. Create a GitHub repository.
-2. Add `index.html`, `style.css`, and `script.js`.
+
+2. Add index.html, style.css, and script.js.
+
 3. Add the IPA archive files or a ZIP package as appropriate for your repository/storage limits.
-4. In **Settings â Pages**, select the branch and `/ (root)` folder.
+
+4. In Settings → Pages, select the branch and / (root) folder.
+
 5. Open the published GitHub Pages URL.
 
 ## GitHub Codespaces
